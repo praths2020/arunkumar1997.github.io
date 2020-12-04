@@ -235,7 +235,10 @@
                                   <li>Above 15<input type="checkbox" class="check"></li>
                                 </ul>
                               </li>
+
+                              <!--clear alla btn-->
                               <li><button id="clearall" class="btn btn-sm  " style="float: right; color: white; background-color: #2ecab6;border-radius: 5px; margin: 0.5em" onclick="uncheckAll()" >Clear all</button></li>
+                              <!--clear all btn end-->
 
                             </ul>
                          </div>
@@ -246,20 +249,24 @@
                                   <li class="sortc" >Customer Ratings<input type="checkbox" class="check" style="margin-top: 25px;"></li>
                                   <li class="sortc" >Price-Lowest to Highest<input type="checkbox" class="check" style="margin-top: 25px;"></li>
                                   <li class="sortc" >Price-Highest to Lowest<input type="checkbox" class="check" style="margin-top: 25px;"></li>
-                                  <li><button id="clearall" class="btn btn-sm  " style="float: right; color: white; background-color: #2ecab6;border-radius: 5px; margin: 0.5em" onclick="uncheckAll()" >Clear all</button></li>
+
+                              <!--clear alla btn-->
+                              <li><button id="clearall" class="btn btn-sm  " style="float: right; color: white; background-color: #2ecab6;border-radius: 5px; margin: 0.5em" onclick="uncheckAll()" >Clear all</button></li>
+                              <!--clear all btn end-->
                                 </ul>
                                 
                           </div>
                           </div>
-                          <style>
 
-                          </style>
+                           <!--clear alla btn js-->
                           <script>
                             function uncheckAll() {
                               $("input[type='checkbox']:checked").prop("checked", false)
                             }
                             $(':button').on('click', uncheckAll)
                           </script>
+                           <!--clear alla btn js end-->
+                           
                  </nav>  
                 
              </div>
