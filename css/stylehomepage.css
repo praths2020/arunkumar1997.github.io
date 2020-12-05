@@ -12,8 +12,6 @@ body {
     position: relative;
     display: inline-block;
 }
-
-
 .login a:hover{
   text-decoration: underline;
   background-color: white !important;
@@ -25,7 +23,6 @@ body {
 .choose a:hover{
   background-color: #2ecab6;
 }
-
 .dropbtn {
     background-color: #4CAF50;
     color: white;
@@ -34,12 +31,10 @@ body {
     border: none;
     cursor: pointer;
 }
-
 .dropdown {
     position: relative;
     display: inline-block;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -48,29 +43,23 @@ body {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-
     .dropdown-content a {
         color: black;
         padding: 12px 16px;
         text-decoration: none;
         display: block;
     }
-
         .dropdown-content a:hover {
             background-color: #f1f1f1
         }
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
-
 /*.main > div{
   align-items: center;
-
 }
 .center{
   color: white;
@@ -94,7 +83,6 @@ margin: 12px 12px;
 padding: 3px;
 font-size: 16px;
 }
-
 .generalcard{
   margin: 5px 0px;
   padding: 10px 10px;
@@ -103,9 +91,7 @@ font-size: 16px;
   float:left;
   width: 100%;
 }
-
 /**/
-
 
 
 /*--------------------------navbar------------------------------------------*/
@@ -149,6 +135,9 @@ font-size: 16px;
    .navbar-brand p{
   font-size: 12px;  
 }
+.filters, .sortby{
+                                        height: 25px !important;
+                                       }
   /*input[type="search"]{
     font-size: 10px;
   }
@@ -162,11 +151,17 @@ font-size: 16px;
    .dropdown{
     margin-left: -25px!important
   }
+  .filters, .sortby{
+                                        height: 25px !important;
+                                       }
 }
 @media (max-width: 381px){
   .dropdown{
     margin-left: -35px!important
   }
+  .filters, .sortby{
+                                        height: 25px !important;
+                                       }
 }
 
 /*---------------------------left part start---------------------------------------------*/
@@ -176,7 +171,7 @@ font-size: 16px;
 
 }
 .sidebar ul li{
-  line-height: 60px;
+  line-height: 47px;
   border-bottom: 1px solid rgba(255,255,255,0.1);
   padding-left: 10px;
 }
@@ -208,7 +203,7 @@ font-size: 16px;
 }
 .sidebar ul ul li
 {
-  line-height: 42px;
+  line-height: 32px;
   border-bottom: none;
 
 }
@@ -258,19 +253,16 @@ font-size: 16px;
   transform: translateY(-50%) rotate(-180deg);
   
 }
+/*.sidebar a {
+  line-height: 20px !important;
+}*/
 .sortc{
   font-size: 16px;
-  margin-bottom: 20px;
-  margin-left: 15px;
-}
-/*.checkc{
-  float: right !important;
-  margin-left: 60px;
-  margin-top: 8px;
-  margin-right: 15px;
+  /*margin-bottom: 5px;*/
   margin-left: 15px;
 
-}*/
+}
+
 .checkboxc li:hover{
     background: #d5f6f2!important;
   color: #17c3ad !important;
@@ -280,6 +272,13 @@ font-size: 16px;
   margin-right: 15px; 
   margin-top: 14px; 
   float: right;
+}
+.checkc{
+ margin-right: 15px; 
+  margin-top: 10px; 
+  float: right;
+}
+
 }
 .sidebar .text{
   color: black;
@@ -291,14 +290,10 @@ font-size: 16px;
 .filters{
   border: none !important; 
 color: white !important;
+
   
 }
 
-/*.collapse,.checkboxc{
-color: black;
-  font-size:20px;
-
-}*/
 
 .sorting{
   background-color: #2ecab6 !important;
@@ -315,6 +310,49 @@ color: black;
   line-height: 65px;
   letter-spacing: 1px;
 }
+.vl {
+  border-left: 6px solid white;
+  height: 50px;
+}
+/*.btn-info.focus, .btn-info:focus {
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}*/
+.dropdown-toggle::after {
+    content: none;
+}
+/* apply CSS to the select tag of  
+         .dropdown-container div*/
+
+.dropdown-container1 select,
+.dropdown-container2 select,
+.dropdown-container3 select,
+.dropdown-container4 select,
+.dropdown-container5 select,
+.dropdown-container6 select,
+.dropdown-container7 select,
+.dropdown-container8 select
+{
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Safari, Chrome, Opera */
+  -webkit-appearance: none;
+}
+
+/* for IE10 */
+.dropdown-container1 select::-ms-expand,
+.dropdown-container2 select::-ms-expand,
+.dropdown-container3 select::-ms-expand,
+.dropdown-container4 select::-ms-expand,
+.dropdown-container5 select::-ms-expand,
+.dropdown-container6 select::-ms-expand,
+.dropdown-container7 select::-ms-expand,
+.dropdown-container8 select::-ms-expand
+ {
+  display: none;
+}
+/*---------------------------left part end---------------------------------------------*/
+
 /*---------------------------left part end---------------------------------------------*/
 /*---------------------------middle part start---------------------------------------------*/
 /*---------------------------middle part start---------------------------------------------*/
