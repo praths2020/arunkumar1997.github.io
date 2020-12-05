@@ -122,7 +122,7 @@ font-size: 16px;
 /*-----------------------navbar end------------------------------------------->*/
 /*------------------------all media queries-----------------------------*/
 /* check box mv */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 465px) {
   .checkbox{
     font-size: 11px;
   }
