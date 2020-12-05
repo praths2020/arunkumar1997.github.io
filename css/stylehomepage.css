@@ -131,18 +131,12 @@ font-size: 16px;
 }
 
 /* Category option mv */
-@media only screen and (max-width: 449px){
+@media only screen and (min-width: 360px) and (max-width: 767px){
   select{
-   width: 8em;
-   font-size: 12px;
+    font-size: 0.7em;
   }
 }
-@media only screen and (max-width: 389px){
-  select{
-   width: 8em;
-   font-size: 10px;
-  }
-}
+
 
 
 @media (max-width: 576px){
