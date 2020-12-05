@@ -27,3 +27,7 @@ $('.pro-btn').click(function(){
 $('nav ul li').click(function(){
   $(this).addCLass("active").siblings().removeClass("active");
 });
+// Material Select Initialization
+$(document).ready(function() {
+  $('.mdb-select').materialSelect();
+  });
