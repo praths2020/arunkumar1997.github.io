@@ -134,27 +134,16 @@ font-size: 16px;
 @media only screen and (max-width: 449px){
   select{
    width: 8em;
-   font-size: 16px;
+   font-size: 12px;
   }
 }
-  @media only screen and (max-width: 400px){
+@media only screen and (max-width: 389px){
   select{
    width: 8em;
-   font-size: 12px;
+   font-size: 10px;
   }
 }
-  @media only screen and (max-width: 345px){
-  select{
-   width: 8em;
-   font-size: 12px;
-  }
-}
-  @media only screen and (max-width: 345px){
-  select{
-   width: 7em;
-   font-size: 12px;
-  }
-}
+
 
 @media (max-width: 576px){
   .navbar-brand{
@@ -591,5 +580,5 @@ footer a {
 .mobview{
   display: block;
 }
-
+}
   /*---------------------------mob  view end---------------------------------------------*/
