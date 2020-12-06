@@ -453,7 +453,9 @@ ul.breadcrumb li a:hover {
 .negoo:hover{
   font-weight: bolder;
   color:#4b8a82 !important;
-  transition: all 150ms ease 0s; 
+  transition: all 150ms ease 0s;
+  
+ 
 }
 
 /* tooltip */
@@ -544,12 +546,6 @@ ul.breadcrumb li a:hover {
   padding: 0.7em 5%;
   font-weight: bold;
   font-size: 0.85rem;
-}
- /*.features li:nth-child(even) {
-  /*background: rgba(0, 0, 0, 0.08);}*/
-.features i {
-  margin-right: 8px;
-  opacity: 0.6;
 }
 
 .fa-check{
