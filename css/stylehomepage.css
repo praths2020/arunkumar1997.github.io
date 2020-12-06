@@ -132,7 +132,7 @@ font-size: 16px;
 
 /* Category option mv */
 @media only screen and (min-width: 360px) and (max-width: 767px){
-  select{
+  select{ 
     font-size: 0.7em;
   }
 }
@@ -413,6 +413,28 @@ ul.breadcrumb li a:hover {
   font-size: 20px;
   margin-right: 5px;
 }
+
+/* negotiation button */
+.negoo:hover{
+  font-weight: bolder;
+  color:#4b8a82 !important;
+  border-bottom: #4b8a82 1px solid;
+  transition: all 150ms ease 0s;
+  transform: scale(1.1);
+}
+
+/* tooltip */
+.tooltip-inner {
+  border-radius: 5px;
+}
+.tooltip .arrow:before {
+  border-top-color: #333 !important;
+   }
+.tooltip .tooltip-inner {
+  background-color: #333;
+  font-size: 0.75rem;
+   }
+  /* tooltip end */
 
 .fa-heart{
   color: red;

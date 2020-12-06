@@ -73,14 +73,24 @@
         <div class=" dropdown"style="margin-left: 0px!important">
 
                   <button type="button" class="btn btn-info dropdown-toggle"data-toggle="dropdown"aria-haspopup="true" aria-expanded="false" class="plan">Sheltie's Plan</button>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="min-width: 60px !important;">
-                      <a class="dropdown-item" href="#">Option A</a>
-                      <a class="dropdown-item" href="#">Option B</a>
-                      <a class="dropdown-item" href="#">Option C</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="min-width: 60px !important;" data-toggle="modal" data-target="#myModal3">
+                      <a class="dropdown-item" href="#">Premium Tenant Plans</a>
+                      <a class="dropdown-item" href="#" >Premium Partner Plans</a>
+                      <a class="dropdown-item" href="#">Career Reboot 2.0</a>
+                      <a class="dropdown-item" href="#">Gharelu-Serve & Earn</a>
+                      <a class="dropdown-item" href="#">Financial Assistance</a>
+                      <a class="dropdown-item" href="#">Plot Buying Assistance</a>
+                      <a class="dropdown-item" href="#">Home Buying Solutions</a>
+                      <a class="dropdown-item" href="#">Strategic Advisory & Valuation</a>
+                      <a class="dropdown-item" href="#">Plot Selling Assistance</a>
+                      <a class="dropdown-item" href="#">Home Selling Assistance</a>
+                      <a class="dropdown-item" href="#">Loan Assistance</a>
                       
                   </div>
+                  
                  
               </li>
+
       <li class="nav-item mr-4 login">
         <a class="nav-link" href="#SignupModal" data-toggle="modal">Sign up </a>
       </li>
@@ -89,6 +99,27 @@
       </li>
       
     </ul>
+    <!-- Modal start -->
+                  <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h5>Coming Soon to Your Place</h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+                  <!-- modal end -->
   </div>
 </nav>
 </div><!--header end---------->
@@ -111,12 +142,6 @@
                   </div>
                   <!-- shelties shelter for mobile view -->
                   <div style="margin:0; margin:10px 0; text-align: center; ">
-                      
-                     <!--  <button style="outline: none; border: none; background-color: #2ecab6; color: white; margin-bottom: 6px;" type="button" class="btn dis btn-info" id="sheltiebtn" data-toggle="modal" data-target="#exampleModalLong">
-                        Sheltie's Shelter <br><p style="font-size: 14px;"> Premium Properties</p>
-                      </button>
-                       <input type="checkbox" id="checkbox1" class="diss" style=" margin-right: 8px;">
-                      <hr style="margin: 0"> -->
                       <div class="modal fade mb-view" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                           <div class="modal-content">
@@ -170,8 +195,6 @@
                       </style>  
                     </div>
                   <!-- end -->
-
-                    <!-- <div style="margin:0; margin:15px 0; text-align: center; font-size: 20px;">Sheltie's Shelter<input type="checkbox" id="checkbox1" style="margin: 10px; margin-top: 4px;"><hr></div> -->
                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion" aria-expanded="true">
                       <script>
                         var z = $( window ).width();
@@ -179,10 +202,7 @@
                           document.getElementById("collapseOne").classList.remove("show")
                         }
                       </script>
-                       <button style="outline: none; border: none; background-color: #2ecab6; color: white; margin-bottom: 6px; margin: 5px;" type="button" class="btn dis btn-info btn-sm" id="sheltiebtn" data-toggle="modal" data-target="#exampleModalLong">
-                        Sheltie's Shelter <br>Premium Properties</button> <input type="checkbox" id="checkbox1" class="diss" style=" margin-left: 10px; margin-top: 2px;">
-                      
-                       
+                        <font color="#2ECAB6" size="4" style="margin-left: 10px;"><strong >Sheltie's Shelter</font></strong> <br><p style="margin-left: 10px;">Premium Filters<input type="checkbox" data-toggle="modal" data-target="#exampleModalLong" style=" margin-left: 10px; margin-top: 2px;"></p>                     
                       <hr style="margin: 0">
                        <ul> 
                           <li>
@@ -255,7 +275,7 @@
                               </li>
                               <li><button id="clearall" class="btn btn-sm  " style="float: left; color: white; background-color: #2ecab6;border-radius: 5px; margin: 0.5em;">Apply</button></li>
                               <li><button id="clearall" class="btn btn-sm  " style="float: right; color: white; background-color: #2ecab6;border-radius: 5px; margin: 0.5em" onclick="uncheckAll()" >Clear all</button></li>
-                              <!-- <button type="button" class="btn btn-info" style="float: right;margin-bottom: 10px !important; margin-right: 5px !important; background-color: #32a898 !important;">Clear All</button> -->
+                              
                             </ul>
                          </div>
 
@@ -267,7 +287,7 @@
                                   <li class="sortc" >Price-Highest to Lowest<input type="checkbox" class="checkc" style="margin-top: 15px;"></li>
                                   <li><button  type="submit" class="btn btn-sm " style="float: left; color: white; background-color: #2ecab6;border-radius: 5px; margin: 0.5em">  Apply </button></li>
                                   <li><button type="button" id="clearall" class="btn btn-sm  " style="float: right; color: white; background-color: #2ecab6;border-radius: 5px; margin: 0.5em" onclick="uncheckAll()" >Clear all</button></li>
-                                  <!-- <button type="button" class="btn btn-info" style="float: right; margin-bottom: 10px !important;  margin-right: 5px !important; background-color: #32a898 !important;">Clear All</button> -->
+                                 
                                 </ul>
 
 
@@ -292,12 +312,12 @@
           <div style="margin-top: 0;  border:none!important;" class="generalcard">
               <div class="checkbox" style=" margin-top: 0; border: solid #2ecab6;border-radius: 2px; background-color: white ">
                   <div class=" d-flex justify-content-around">
-                  <div style="text-align: center;">Couples Privacy<input type="checkbox" id="checkbox1" style="margin: 5px;"></div>
-                  <div style="text-align: center;">Family Zoned<input type="checkbox" id="checkbox1" style="margin: 5px;"></div>
+                  <div style="text-align: center;">Couples Privacy<input type="checkbox" id="checkbox1" style="margin: 7px; "></div>
+                  <div style="text-align: center;">Family Zoned<input type="checkbox" id="checkbox1" style="margin: 7px;"></div>
 
-                  <div style="text-align: center;">Male Only<input type="checkbox" id="checkbox1" style="margin: 5px;"></div>
+                  <div style="text-align: center;">Male Only<input type="checkbox" id="checkbox1" style="margin: 7px;"></div>
 
-                  <div style="text-align: center;">Female Only<input type="checkbox" id="checkbox1" style="margin: 5px;"></div>
+                  <div style="text-align: center;">Female Only<input type="checkbox" id="checkbox1" style="margin: 7px;"></div>
                 </div>
               </div>
               <div  style="margin-top: 0 !important; " >
@@ -388,8 +408,15 @@
                                   </script>
                                  
                                  <hr style="margin: 4px;">
-                                 <i class="fa fa-map-marker-alt" aria-hidden="true"></i>     Nearby<br><hr  style="margin: 3px; margin-top: 3px">
+                                 <i class="fa fa-map-marker-alt" aria-hidden="true"></i>     Nearby<br><hr  style=" margin: 3px; margin-top: 3px">
+                                  
+                        
+                       <i class="fa fa-plus" data-toggle="tooltip" title="Negotiable"  data-placement="top"  style=" cursor: pointer; font-weight:bold; float: right; color: #2ecab6; margin-top: 5px; margin-left: 3px;" ></i>
+                       
+                       <div class="negoo" data-toggle="modal" data-target="#myModal" style= " color: red; cursor: pointer; font-weight: bolder; font-size: large; float:right;text-align: center; width: 10%;" > ₹4500 </div>
+                        <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" style=" visibility: hidden;" ></button> 
 
+                        
 
                                  <!--categoryy alined start-->                     
                                  <div class="container-fluid " >
@@ -415,17 +442,6 @@
                                   
 
                                      @media only screen and (max-width: 1200px) {
-                                       /**{
-                                         font-size: small !important;
-                                       }*/
-                                       /*.header{
-                                        font-size: 
-                                       }*/
-                                       /*.left,
-                                       .middle,
-                                       .right{
-                                        font-size: small !important;
-                                       }*/
                                        div  .lower a{
                                         float: left !important;
                                         padding-top: -40px !important;
@@ -510,10 +526,6 @@
                                   </select>
                                   
                                     </div></li></ul>
-
-                                    <div class="lower mt-0" >
-                                    <a href="" class="mt-5" style=" float: right; color: red; " data-toggle="modal" data-target="#myModal"> ₹4500 Negotiable</a>           
-                                       </div>
                                   
                                       <!--   <br> -->
                                        
@@ -523,7 +535,11 @@
 
 
                    </div><!-----pp2 end------->
-                  
+                  <div class="lower2 py-2" style="float: right; ">
+                         <button style=" border : none;background-color: #32a898; color: white;" type="button" class="btn btn-primary mt-2 btn-sm";>Owner Details</button>
+                         <button style=" border : none;background-color: #32a898; color: white; margin-left: 5px;" type="button" class="btn btn-primary mt-2 btn-sm">Book Now </button>
+                         <i  class="fa fa-info-circle" style="margin-top: 12px;" data-toggle="modal" data-target="#myModal2"></i>
+                       </div>
                      
                         
                        
@@ -544,7 +560,7 @@
 
 <!-----genaral card div end-------------->
 <!-- card 2 start
- -->
+ --><br>
     <div style=" margin:5px 10px; background-color: white; border: 1px solid grey;">
                  <div class="container-fluid">
                  <div class="row">
@@ -586,12 +602,7 @@
                         </div><!-----carousel end--->
                               
                    </div><!-----image div end----------->
-                      <div class="lower2 py-2" style="display: flex; flex-direction: row;">
-                         <button style=" border : none;background-color: #32a898; color: white;" type="button" class="btn btn-primary mt-2 ">Owner Details</button>
-                         <!-- <button style=" border : none;background-color: #32a898; color: white;margin: 10px;" type="button" class="btn btn-primary">Get owner details</button>-->
-                         <button style=" border : none;background-color: #32a898; color: white; margin-left: 5px;" type="button" class="btn btn-primary mt-2">Book Now </button>
-                         <i  class="fa fa-info-circle" style="margin-top: 18px;" data-toggle="modal" data-target="#myModal2"></i>
-                       </div>
+                      
                  </div><!-----col-4(image) end----------->
                  <div class="col-lg-8 col-md-8 col-sm-8">
                        <div  style="margin:0; margin-top: 15px;margin-right: 15px;" class="pp2 " >
@@ -627,7 +638,17 @@
                                  
                                   <hr style="margin: 4px; ">
                                   <i class="fa fa-map-marker-alt" aria-hidden="true"></i>Nearby<br><hr  style="margin: 3px; margin-top: 3px">
+                         
+                                  <i class="fa fa-plus" data-toggle="tooltip" title="Negotiable"  data-placement="top"  style=" cursor: pointer; font-weight:bold; float: right; color: #2ecab6; margin-top: 5px; margin-left: 3px;" ></i>
+                       
+                                  <div class="negoo" data-toggle="modal" data-target="#myModal" style= " color: red; cursor: pointer; font-weight: bolder; font-size: large; float:right;text-align: center; width: 10%;" > ₹4500 </div>
+                                   <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" style=" visibility: hidden;" ></button> 
+                         
+                         
+                         
                                   <div class="container-fluid ">
+                                    
+                                    
                                     <ul  style="margin-top: 0;">
                                       <li style="list-style-type: none;"><div class="dropdown-container1">
                                        <select  class="mt-1" name="category" id="category" >
@@ -698,16 +719,18 @@
                                        <option value="none">10-15</option>
                                        <option value="none">> 15</option>
                                    </select>
-                                     </div><div class="lower mt-0" >
-                                      <a href="" class="mt-5" style=" float: right; color: red; " data-toggle="modal" data-target="#myModal"> ₹4500 Negotiable</a>           
-                                         </div></li></ul>
-                                         <br>
+                                     </div>
              
                                  </div>
 
                     </div><!-----pp2 end------->
                    
-
+<div class="lower2 py-2" style="float: right; ">
+                         <button style=" border : none;background-color: #32a898; color: white;" type="button" class="btn btn-primary mt-2 btn-sm";>Owner Details</button>
+                         <!-- <button style=" border : none;background-color: #32a898; color: white;margin: 10px;" type="button" class="btn btn-primary">Get owner details</button>-->
+                         <button style=" border : none;background-color: #32a898; color: white; margin-left: 5px;" type="button" class="btn btn-primary mt-2 btn-sm">Book Now </button>
+                         <i  class="fa fa-info-circle" style="margin-top: 12px;" data-toggle="modal" data-target="#myModal2"></i>
+                       </div>
             </div><!---col-8 end------->
 
 
@@ -967,12 +990,12 @@
       <script>
         if (screen.width<576){
           document.getElementById("ll").classList.add("l");
-          document.getElementById("sheltiebtn").classList.remove("dis");
+          // document.getElementById("sheltiebtn").classList.remove("dis");
         }
           else{
             des.classList.add("dis");
             document.getElementById("ll").classList.remove("l");
-            document.getElementById("checkbox1").classList.remove("diss");
+            // document.getElementById("checkbox1").classList.remove("diss");
           //   document.getElementById("collapseOne").classList.remove("collapse-show");
           }
          
