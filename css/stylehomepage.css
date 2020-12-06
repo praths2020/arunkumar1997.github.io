@@ -545,7 +545,7 @@ ul.breadcrumb li a:hover {
   border-top: 1px solid #d2d7e2;
   padding: 0.7em 5%;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 0.85rem;
 }
  /*.features li:nth-child(even) {
   /*background: rgba(0, 0, 0, 0.08);}*/
