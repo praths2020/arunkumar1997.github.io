@@ -149,7 +149,7 @@ font-size: 16px;
 @media only screen and (min-width: 360px) and (max-width: 767px){
   .negoo{
     margin-right: 5px;
-    width: 15% !important;
+    width: 20% !important;
   }
   .price-nego{
     display: flex;
