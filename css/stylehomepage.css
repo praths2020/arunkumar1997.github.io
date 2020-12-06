@@ -453,9 +453,7 @@ ul.breadcrumb li a:hover {
 .negoo:hover{
   font-weight: bolder;
   color:#4b8a82 !important;
-  transition: all 150ms ease 0s;
-  
- 
+  transition: all 150ms ease 0s; 
 }
 
 /* tooltip */
