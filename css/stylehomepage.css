@@ -134,8 +134,8 @@ font-size: 16px;
   font-size:9px;
   padding: 2px 5px; 
   position: absolute;
-  top: 12% ; 
-  right: 18% ;
+  top: 10% ; 
+  right: 15% ;
   padding-bottom: 0;
 }
 /*-----------------------navbar end------------------------------------------->*/
@@ -171,7 +171,7 @@ font-size: 16px;
 @media (max-width: 576px){
   .prem-filter .pre .newbtn{
     right: 30% ;
-    top: 5%  ;
+    top: 10%  ;
   }
 }
 @media (max-width: 576px){
